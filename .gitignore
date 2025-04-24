@@ -1,0 +1,44 @@
+# ========== Build output ==========
+/target/
+/**/target/
+/**/build/
+
+# ========== Maven wrapper ==========
+!.mvn/wrapper/maven-wrapper.jar
+
+# ========== IDE ==========
+# IntelliJ IDEA
+/.idea/
+/*.iml
+# VS Code
+/.vscode/
+
+# ========== Local settings ==========
+# игнорировать только настоящий application.properties
+src/main/resources/application.properties
+# но отслеживать template-файл
+!src/main/resources/application.properties.origin
+
+# ========== Docs ==========
+# включаем HELP.md
+!HELP.md
+
+# ========== Logs & temp ==========
+*.log
+*.tmp
+
+# ========== OS-specific ==========
+.DS_Store
+Thumbs.db
+
+# ========== Compiled & archives ==========
+*.class
+*.jar
+*.war
+*.ear
+
+# ========== Others ==========
+
+.idea/
+*.iml
+target/

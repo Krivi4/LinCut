@@ -1,0 +1,11 @@
+databaseChangeLog:
+  - changeSet:
+      id: 001-load-schema
+      author: krivi4
+      changes:
+        - sqlFile:
+            path: db/changelog/sql/schema.sql
+            relativeToChangelogFile: false
+            splitStatements: false
+            stripComments: false
+            endDelimiter: ";"
